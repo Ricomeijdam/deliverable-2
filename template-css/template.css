@@ -1,0 +1,88 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container__explorer{
+    background-image: url("images/moutain-with-women.png");
+    background-repeat: no-repeat;
+    min-height: 600px;
+    color: white;
+}
+
+.navigation{
+    overflow: hidden;
+    font-size: 17px;
+    font-family: "Courier";
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.navigation__list{
+    cursor: pointer;
+    list-style: none;
+    margin: 0px;
+    width: 45%;
+    display: table;
+    padding: 25px 8px;
+    float: right;
+}
+
+.navigation__item{
+    width: 10%;
+    display: table-cell;
+}
+
+.navigation__item--link{
+    color: #777777;
+    text-decoration: none;
+    width: 30%;
+}
+.navigation__item--link:hover{
+    box-shadow: 0px 0px 20px 0px black;
+}
+
+.container__explorer--title{
+    float: left;
+}
+
+.dot{
+    float: right;
+    margin: 0;
+    color: aqua;
+}
+
+.latest-news{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 13%;
+}
+.latest-news--title{
+    font-family: Lato;
+    margin-left: 3%;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.latest-news--hr{
+    width: 1.5%;
+    float: left;
+    border:1.5px solid aqua;
+}
+.latest-news--text{
+    font-family: Lato;
+    font-size: 38px;
+    width: 50%;
+}
+
+.recent__title{
+    font-family: Lato;
+}
+
+.section__home{
+    text-align: center;
+}
